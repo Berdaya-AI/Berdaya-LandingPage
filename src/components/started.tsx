@@ -12,7 +12,7 @@ const Started = () => {
               <img
                 src="/shape_1.png"
                 className="w-[75%] object-contain my-auto mx-auto"
-                alt=""
+                alt="Shape"
               />
             </div>
             <div className="flex flex-col place-content-center gap-2 md:gap-4 pe-6 md:pe-24 xl:pe-48 ">

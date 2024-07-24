@@ -13,20 +13,6 @@ const Footer = () => {
           <div className="flex flex-col gap-4 md:flex-row">
             <p className="text-xs font-medium my-auto">Privacy Policy</p>
             <div className="flex gap-4 my-auto">
-              {/* <Link href="#">
-                <img
-                  src="/facebook.png"
-                  className="w-4 h-4 md:w-6 md:h-6"
-                  alt="Icon Facebook"
-                />
-              </Link>
-              <Link href="#">
-                <img
-                  src="/twitter.png"
-                  className="w-4 h-4 md:w-6 md:h-6"
-                  alt="Icon Twitter"
-                />
-              </Link> */}
               <Link href="https://www.linkedin.com/company/berdaya-ai">
                 <img
                   src="/linkedin.png"

@@ -8,12 +8,12 @@ const Workflow = () => {
           <img
             src="/workflow.png"
             className="h-full object-contain hidden md:block"
-            alt=""
+            alt="Product"
           />
           <img
             src="/workflow_vertical.png"
             className="h-full object-contain block md:hidden"
-            alt=""
+            alt="Product"
           />
         </div>
       </div>

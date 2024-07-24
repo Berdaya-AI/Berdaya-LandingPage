@@ -4,30 +4,35 @@ export const collaboration = [
     icon: "/icon_dollar.png",
     title: "Usage based,",
     description: " top up tokens and pay only per tokens used.",
+    alt: "Icon Dollar",
   },
   {
     id: 2,
     icon: "/icon_bar_chart.png",
     title: "Agency,",
     description: " only pay a commission for each successful target.",
+    alt: "Icon Bar Chart",
   },
   {
     id: 3,
     icon: "/icon_credit_card.png",
     title: "Subscription,",
     description: " use as much as you want, pay a monthly or yearly fee.",
+    alt: "Icon Credit Card",
   },
   {
     id: 4,
     icon: "/icon_chat_bubble.png",
     title: "Consultancy,",
     description: " discover the best strategy. Pay per session project.",
+    alt: "Icon Chat Bubble",
   },
   {
     id: 5,
     icon: "/icon_search.png",
     title: "R&D,",
     description: " we build the system just pay the project fee.",
+    alt: "Icon Search",
   },
 ];
 

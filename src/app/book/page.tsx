@@ -16,7 +16,7 @@ const Book = () => {
           <div className="grid lg:grid-cols-2 lg:grid-rows-none gap-4">
             <div className="flex flex-col gap-4 border-2 border-slate-700 rounded-2xl p-8 text-white/80">
               <h1 className="font-bold text-2xl md:text-[32px]">
-                Let’s scale together
+                Let&apos;s scale together
               </h1>
               <p className="pb-2 text-base md:text-xl font-medium">
                 Unlock your business potential with AI-Powered growth.
@@ -24,24 +24,20 @@ const Book = () => {
               <div className="grid gap-4">
                 <div className="grid grid-cols-2 gap-4 ">
                   <Input
-                    type=""
                     className="bg-black-100 border-[#424242] placeholder:text-[#979797]"
                     placeholder="First Name*"
                   />
                   <Input
-                    type=""
                     className="bg-black-100 border-[#424242] placeholder:text-[#979797]"
                     placeholder="Last Name*"
                   />
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                   <Input
-                    type=""
                     className="bg-black-100 border-[#424242] placeholder:text-[#979797]"
                     placeholder="Company Name*"
                   />
                   <Input
-                    type=""
                     className="bg-black-100 border-[#424242] placeholder:text-[#979797]"
                     placeholder="Job Title*"
                   />
@@ -106,13 +102,13 @@ const Book = () => {
                 >
                   I agree to receive communications from Berdaya, and I
                   understand Berdaya will process my personal information in
-                  accordance with Berdaya’s Privacy Policy.*
+                  accordance with Berdaya&apos;s Privacy Policy.*
                 </label>
               </div>
             </div>
             <div className="flex flex-col gap-4 border-2 border-slate-700 rounded-2xl p-8">
               <div className="flex h-[35%] justify-center">
-                <img src="/shape_2.png" alt="" />
+                <img src="/shape_2.png" alt="Shape" />
               </div>
               <Link className="flex items-center gap-2" href="/">
                 <span className="font-bold text-lg md:text-2xl">
@@ -120,8 +116,9 @@ const Book = () => {
                 </span>
               </Link>
               <p className="pb-8 text-base md:text-xl">
-                “We helping visionary businesses transform innovatively,
-                integrate seamlessly, while maintain reliable infrastructure.”
+                &quot;We helping visionary businesses transform innovatively,
+                integrate seamlessly, while maintain reliable
+                infrastructure.&quot;
               </p>
               <div className="flex flex-col pb-4 text-base md:text-xl">
                 <p>
@@ -137,12 +134,16 @@ const Book = () => {
               <div className="h-[1px] rounded-full bg-gradient-to-l from-white to-white/20 mb-8"></div>
               <div className="flex flex-col text-center gap-12">
                 <p className="text-[10px] md:text-sm">
-                  Trusted by the world's most ambitious AI teams
+                  Trusted by the world&apos;s most ambitious AI teams
                 </p>
                 <div className="flex flex-col gap-12 items-center">
                   <div className="flex justify-between h-5 gap-12 md:h-10">
-                    <img src="/zoom.png" className="h-full" alt="" />
-                    <img src="/netflix.png" className="h-full" alt="" />
+                    <img src="/zoom.png" className="h-full" alt="Logo Zoom" />
+                    <img
+                      src="/netflix.png"
+                      className="h-full"
+                      alt="Logo Netflix"
+                    />
                   </div>
                 </div>
               </div>

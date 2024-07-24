@@ -16,7 +16,7 @@ const Collaboration = () => {
                 <img
                   src={collaborations.icon}
                   className="flex flex-shrink-0 w-6 h-6 md:w-8 md:h-8"
-                  alt=""
+                  alt={collaborations.alt}
                 />
                 <p className="grow text-sm text-wrap md:text-xl font-extralight">
                   <span className="font-medium">{collaborations.title}</span>
@@ -34,7 +34,7 @@ const Collaboration = () => {
           <img
             src="/cubic.png"
             className="w-full h-full object-contain md:object-cover xl:-translate-x-10 xl:-translate-y-10 "
-            alt=""
+            alt="Shape Cubic"
           />
         </div>
       </div>

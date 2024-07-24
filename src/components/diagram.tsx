@@ -8,7 +8,7 @@ const Diagram = () => {
           <img
             src="/diagram.png"
             className="w-full object-contain p-4 xl:pb-12"
-            alt=""
+            alt="Diagram"
           />
         </div>
         <div className="flex flex-col gap-4 md:gap-8">
