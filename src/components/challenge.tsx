@@ -18,19 +18,19 @@ const Challenge = () => {
           complex regulatory requirements.
         </p>
         <div className="grid pb-6 px-4 gap-8 grid-rows-3 md:grid-cols-3 md:grid-rows-none md:px-0">
-          <div className="p-8 border-2 border-slate-500 shadow-xl rounded-xl">
+          <div className="p-8 border-2 border-[#424242] shadow-xl rounded-xl">
             <p className="text-balance text-sm xl:text-lg 2xl:text-xl">
               <span className="text-[#0CD464]">Transforming </span>their
               operations<span className="text-[#0CD464]"> innovatively</span>
             </p>
           </div>
-          <div className="p-8 border-2 border-slate-500 shadow-xl rounded-xl">
+          <div className="p-8 border-2 border-[#424242] shadow-xl rounded-xl">
             <p className="text-balance text-sm xl:text-lg 2xl:text-xl">
               <span className="text-[#0CD464]">Seamlessly integrating </span>new
               technologies
             </p>
           </div>
-          <div className="p-8 border-2 border-slate-500 shadow-xl rounded-xl">
+          <div className="p-8 border-2 border-[#424242] shadow-xl rounded-xl">
             <p className="text-balance text-sm xl:text-lg 2xl:text-xl">
               While
               <span className="text-[#0CD464]"> maintaining reliable </span>

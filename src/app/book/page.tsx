@@ -14,7 +14,7 @@ const Book = () => {
       <section className="max-w-full w-full">
         <div className="container">
           <div className="grid lg:grid-cols-2 lg:grid-rows-none gap-4">
-            <div className="flex flex-col gap-4 border-2 border-slate-700 rounded-2xl p-8 text-white/80">
+            <div className="flex flex-col gap-4 border-2 border-[#424242] rounded-2xl p-8 text-white/80">
               <h1 className="font-bold text-2xl md:text-[32px]">
                 Let&apos;s scale together
               </h1>
@@ -106,7 +106,7 @@ const Book = () => {
                 </label>
               </div>
             </div>
-            <div className="flex flex-col gap-4 border-2 border-slate-700 rounded-2xl p-8">
+            <div className="flex flex-col gap-4 border-2 border-[#424242] rounded-2xl p-8">
               <div className="flex h-[35%] justify-center">
                 <img src="/shape_2.png" alt="Shape" />
               </div>
@@ -130,22 +130,6 @@ const Book = () => {
                 <p className="text-xs md:text-base text-white/55">
                   Chief Executive Officer
                 </p>
-              </div>
-              <div className="h-[1px] rounded-full bg-gradient-to-l from-white to-white/20 mb-8"></div>
-              <div className="flex flex-col text-center gap-12">
-                <p className="text-[10px] md:text-sm">
-                  Trusted by the world&apos;s most ambitious AI teams
-                </p>
-                <div className="flex flex-col gap-12 items-center">
-                  <div className="flex justify-between h-5 gap-12 md:h-10">
-                    <img src="/zoom.png" className="h-full" alt="Logo Zoom" />
-                    <img
-                      src="/netflix.png"
-                      className="h-full"
-                      alt="Logo Netflix"
-                    />
-                  </div>
-                </div>
               </div>
             </div>
           </div>

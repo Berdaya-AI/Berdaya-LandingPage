@@ -2,7 +2,6 @@ import Challenge from "@/components/challenge";
 import Collaboration from "@/components/collaboration";
 import Diagram from "@/components/diagram";
 import Hero from "@/components/hero";
-import Partner from "@/components/partner";
 import Started from "@/components/started";
 import Workflow from "@/components/workflow";
 
@@ -12,7 +11,6 @@ export default function Home() {
       <section className="max-w-full w-full">
         <Hero />
         <Workflow />
-        <Partner />
         <Challenge />
         <Collaboration />
         <Diagram />

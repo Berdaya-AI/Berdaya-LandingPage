@@ -1,4 +1,5 @@
 import { collaboration } from "@/data";
+import Link from "next/link";
 import React from "react";
 
 const Collaboration = () => {
@@ -25,9 +26,14 @@ const Collaboration = () => {
               </div>
             ))}
           </div>
-          <div className="py-6 flex text-[#0CD464] font-bold gap-4 border-t-2 border-t-slate-500 text-sm md:text-xl">
-            <p>Learn more about collaboration</p>
-            <span>&#x1F86A;</span>
+          <div className="py-6 border-t-2 border-t-slate-500 ">
+            <Link
+              href="/book"
+              className="flex text-[#0CD464] font-bold gap-4 text-sm md:text-xl"
+            >
+              <p>Learn more about collaboration</p>
+              <span>&#x1F86A;</span>
+            </Link>
           </div>
         </div>
         <div className="flex xl:col-span-2">
