@@ -1,5 +1,6 @@
 import React from "react";
 import StylingButton from "./styling-button";
+import Link from "next/link";
 
 const Challenge = () => {
   return (
@@ -39,11 +40,13 @@ const Challenge = () => {
           </div>
         </div>
         <div className="flex justify-center gap-4">
-          <StylingButton
-            className="rounded-xl bg-gradient-to-r from-[#00674F] to-[#000000] hover:saturate-200"
-            title="Get Started"
-            icon="&#x1F86A;"
-          />
+          <Link href="/book">
+            <StylingButton
+              className="rounded-xl bg-gradient-to-r from-[#00674F] to-[#000000] hover:saturate-200"
+              title="Get Started"
+              icon="&#x1F86A;"
+            />
+          </Link>
         </div>
       </div>
     </section>

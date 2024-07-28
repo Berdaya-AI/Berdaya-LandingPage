@@ -1,5 +1,6 @@
 import React from "react";
 import StylingButton from "./styling-button";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -13,16 +14,20 @@ const Hero = () => {
           to drive your growth and efficiency.
         </p>
         <div className="flex justify-center gap-4">
-          <StylingButton
-            className="rounded-xl bg-gradient-to-r from-[#00674F] to-[#000000] hover:saturate-200"
-            title="Get Started"
-            icon="&#x1F86A;"
-          />
-          <StylingButton
-            className="rounded-xl bg-transparent hover:bg-slate-800 hover:border hover:border-slate-500"
-            title="Build AI"
-            icon="&#x1F86A;"
-          />
+          <Link href="/book">
+            <StylingButton
+              className="rounded-xl bg-gradient-to-r from-[#00674F] to-[#000000] hover:saturate-200"
+              title="Get Started"
+              icon="&#x1F86A;"
+            />
+          </Link>
+          <Link href="/book">
+            <StylingButton
+              className="rounded-xl bg-transparent hover:bg-slate-800 hover:border hover:border-slate-500"
+              title="Build AI"
+              icon="&#x1F86A;"
+            />
+          </Link>
         </div>
       </div>
     </div>
