@@ -43,8 +43,8 @@ const Challenge = () => {
           <Link href="/book">
             <StylingButton
               className="rounded-xl bg-gradient-to-r from-[#00674F] to-[#000000] hover:saturate-200"
+              iconClassName="my-auto h-4"
               title="Get Started"
-              icon="&#x1F86A;"
             />
           </Link>
         </div>

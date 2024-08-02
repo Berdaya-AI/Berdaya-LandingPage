@@ -91,8 +91,8 @@ const Book = () => {
               />
               <StylingButton
                 className="rounded-xl text-white bg-gradient-to-r from-[#00674F] to-[#000000] hover:saturate-200 mb-4"
+                iconClassName="my-auto h-4"
                 title="Submit"
-                icon="&#x1F86A;"
               />
               <div className="flex space-x-4 ">
                 <Checkbox id="terms" className="border-[#424242]" />

@@ -2,22 +2,23 @@
 
 import React from "react";
 import { Button } from "./ui/button";
+import { ArrowRight } from "lucide-react";
 
 interface Btn {
   className: string;
   title: string;
-  icon: string | null;
+  iconClassName?: string;
 }
 
 const StylingButton = (props: Btn) => {
-  const { className, title, icon } = props;
+  const { className, title, iconClassName } = props;
 
   return (
     <div className="flex">
       <Button className={`${className}`}>
-        <span className="flex gap-4">
+        <span className="flex md:gap-4">
           <p>{title}</p>
-          <p className="my-auto">{icon}</p>
+          <ArrowRight className={`${iconClassName}`} />
         </span>
       </Button>
     </div>

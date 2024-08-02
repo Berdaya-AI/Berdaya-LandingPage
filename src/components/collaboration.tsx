@@ -1,4 +1,5 @@
 import { collaboration } from "@/data";
+import { MoveRight } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -32,7 +33,7 @@ const Collaboration = () => {
               className="flex text-[#0CD464] font-bold gap-4 text-sm md:text-xl"
             >
               <p>Learn more about collaboration</p>
-              <span>&#x1F86A;</span>
+              <MoveRight className="my-auto h-4 xl:h-6" />
             </Link>
           </div>
         </div>

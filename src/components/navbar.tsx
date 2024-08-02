@@ -41,8 +41,8 @@ export default function Navbar() {
             <Link href="/book">
               <StylingButton
                 className="rounded-xl bg-gradient-to-r from-[#00674F] to-[#000000] text-xs hover:saturate-200"
+                iconClassName="my-auto h-4"
                 title="Book a Demo"
-                icon="&#x1F86A;"
               />
             </Link>
           </nav>
@@ -70,15 +70,13 @@ export default function Navbar() {
                   </Link>
                 </DropdownMenuGroup>
                 <DropdownMenuSeparator className="bg-[#424242]" />
-                <Link href="/get-started">
+                <Link href="/book">
                   <DropdownMenuItem className="focus:bg-black-100">
-                    <Link href="/book">
-                      <StylingButton
-                        className="rounded-xl bg-gradient-to-r from-[#00674F] to-[#000000] text-xs hover:saturate-200"
-                        title="Book a Demo"
-                        icon="&#x1F86A;"
-                      />
-                    </Link>
+                    <StylingButton
+                      className="rounded-xl bg-gradient-to-r from-[#00674F] to-[#000000] text-xs hover:saturate-200"
+                      iconClassName="my-auto h-4"
+                      title="Book a Demo"
+                    />
                   </DropdownMenuItem>
                 </Link>
               </DropdownMenuContent>
