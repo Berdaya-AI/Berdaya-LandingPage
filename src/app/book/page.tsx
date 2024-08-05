@@ -102,9 +102,25 @@ const Book = () => {
           },
           body: JSON.stringify(formData),
         });
-        if (!response.ok) {
-          console.error("Failed to submit form:", response.statusText);
+        if (response.ok) {
+          setFormData({
+            firstName: '',
+            lastName: '',
+            companyName: '',
+            jobTitle: '',
+            email: '',
+            budget: '',
+            help: [],
+            projectDetail: '',
+            terms: false,
+          });
+          setTermsChecked(false);
+          setErrors({});
+          alert('Form submitted successfully');
+        } else {
+          console.error('Failed to submit form:', response.statusText);
         }
+
       } catch (error) {
         console.error("Error submitting form:", error);
       }
