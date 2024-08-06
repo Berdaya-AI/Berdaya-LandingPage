@@ -22,7 +22,7 @@ export default function Navbar() {
             alt="Logo Berdaya.AI"
           />
           <img src="/line.png" className="my-auto w-3" alt="Line" />
-          <span className="font-bold text-lg text-white">BERDAYA.ai</span>
+          <span className="font-bold text-lg text-white">Berdaya.ai</span>
         </Link>
         <div className="flex gap-8 my-auto">
           <nav className="hidden text-white md:gap-8 md:flex ">
