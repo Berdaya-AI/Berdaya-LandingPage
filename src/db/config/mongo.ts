@@ -10,7 +10,7 @@ const client = new MongoClient(uri, {
     }
 });
 
-const database = client.db("my-app");
+const database = client.db("berdaya-ai");
 
 export const getCollection = <T extends Document>(collection: string): Collection<T> => {
     return database.collection<T>(collection);
