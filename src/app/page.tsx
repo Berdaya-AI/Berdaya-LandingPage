@@ -1,9 +1,9 @@
-import Challenge from "@/components/challenge";
-import Collaboration from "@/components/collaboration";
-import Diagram from "@/components/diagram";
-import Hero from "@/components/hero";
-import Started from "@/components/started";
-import Workflow from "@/components/workflow";
+import Collaboration from "@/app/_section/collaboration";
+import Diagram from "@/app/_section/diagram";
+import Workflow from "@/app/_section/workflow";
+import Hero from "./_section/hero";
+import Challenge from "./_section/challenge";
+import Started from "./_section/started";
 
 export default function Home() {
   return (

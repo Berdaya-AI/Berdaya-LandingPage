@@ -8,6 +8,7 @@ interface Btn {
   className: string;
   title: string;
   iconClassName?: string;
+  disabled?: boolean;
 }
 
 const StylingButton = (props: Btn) => {

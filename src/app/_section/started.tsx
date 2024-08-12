@@ -1,6 +1,6 @@
+import StylingButton from "@/components/styling-button";
+import { Input } from "@/components/ui/input";
 import React from "react";
-import { Input } from "./ui/input";
-import StylingButton from "./styling-button";
 
 const Started = () => {
   return (

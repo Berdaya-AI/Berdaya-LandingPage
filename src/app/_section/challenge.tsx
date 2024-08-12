@@ -1,6 +1,6 @@
 import React from "react";
-import StylingButton from "./styling-button";
 import Link from "next/link";
+import StylingButton from "@/components/styling-button";
 
 const Challenge = () => {
   return (
